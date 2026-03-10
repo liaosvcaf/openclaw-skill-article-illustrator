@@ -1,30 +1,10 @@
 {
-  "_generated": "Auto-generated from root STATUS.json. Do not edit manually.",
-  "skill": "article-illustrator",
-  "id": "B",
-  "stage": "released",
-  "auditScore": 63,
-  "auditDate": "2026-02-16",
-  "competitivePosition": "novel",
-  "competitiveAction": "expand",
-  "tier": "generic",
-  "priority": "medium",
-  "lastRefactored": "2026-02-18",
-  "testsPassing": true,
-  "opsecClean": true,
-  "notes": "Scrapbook-style illustration inserter. v1.3.0: parallel image generation, OpenRouter provider, per-image cost display, 7-language support. Published as scrapbook-illustrator (article-illustrator slug taken by wpank). Published via curl workaround 2026-02-19.",
+  "name": "article-illustrator",
+  "version": "1.3.1",
   "released": true,
-  "compositionRole": "standalone",
-  "githubRepo": "liaosvcaf/openclaw-skill-article-illustrator",
-  "repoVersion": "1.3.0",
-  "attribution": {
+  "notes": "Scrapbook-style illustration inserter. Z.AI-only GLM-image provider.",
+  "upstream": {
     "source": "https://github.com/ViffyGwaanl/glm-image",
-    "author": "ViffyGwaanl",
     "license": "MIT"
-  },
-  "auditRubric": "rubric-audit-b5",
-  "auditMaxScore": 90,
-  "clawhubSlug": "scrapbook-illustrator",
-  "clawhub": "https://clawhub.ai/chunhualiao/scrapbook-illustrator",
-  "clawhubVersion": "1.3.0"
+  }
 }
