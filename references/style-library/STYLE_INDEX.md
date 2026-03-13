@@ -5,30 +5,30 @@ Use these reference styles when the user wants a known visual treatment instead 
 ## Style 1: Board System
 
 - File: `style-1-board-system.png`
-- Look: 蓝色系统板 + 撕裂纸 + 手机界面 + 少量大字标题
-- Best for: 讲流程、讲系统、讲工具链、讲排版规则
-- Keywords: `蓝色系统板`, `版式统一`, `模块化`, `清晰结构`
+- Look: 组织结构板 + 任务角色分层 + 纸张拼贴，像“数字公司/任务看板”的主视觉
+- Best for: 讲系统架构、角色分工、组织结构、agent 协同
+- Keywords: `组织结构`, `任务看板`, `角色分层`, `系统板`
 
 ## Style 2: Blue Poster
 
 - File: `style-2-blue-poster.png`
-- Look: 蓝色竖版海报，手机/界面做主视觉，贴少量便签
-- Best for: 工具介绍、个人工作流、产品结构图
-- Keywords: `竖版海报`, `大主视觉`, `少字`, `高质感`
+- Look: 强蓝色竖版海报，像“MISSION CONTROL”这种封面级主视觉，机器人和控制台很抓眼
+- Best for: 工具介绍、封面图、任务指挥中心、主视觉型技术文章
+- Keywords: `蓝色海报`, `主视觉`, `任务指挥中心`, `封面感`
 
 ## Style 3: Character Sticker
 
 - File: `style-3-character-sticker.png`
-- Look: 可爱角色贴纸 + 大图标 + 少量结论型文字
-- Best for: 科普、类比、轻松一点的解释型文章
-- Keywords: `角色贴纸`, `轻科普`, `卡通`, `结论提示`
+- Look: 手绘小人 + 彩色便签 + 轻松拼贴感，可爱但不幼稚，适合讲思维转变
+- Best for: 科普、成长型主题、轻松解释、给普通读者看的文章
+- Keywords: `手绘小人`, `便签`, `成长型`, `轻科普`
 
 ## Style 4: Editorial Story
 
 - File: `style-4-editorial-story.png`
-- Look: 更像杂志插页或报道配图，情绪感更强
-- Best for: 观点文、故事文、人物/人机关系类主题
-- Keywords: `杂志感`, `叙事感`, `情绪`, `编辑感`
+- Look: 更像公众号观点文里的故事型海报，贴纸、对白、人物状态和“先试试看”的情绪很强
+- Best for: 观点文、劝服型文章、叙事性技术文章、带一点情绪推进的内容
+- Keywords: `叙事感`, `观点文`, `先试试看`, `故事型海报`
 
 ## Style 5: Bold Metaphor Scrapbook
 
