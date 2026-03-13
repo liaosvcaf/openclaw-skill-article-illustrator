@@ -2,6 +2,10 @@
 
 Use these reference styles when the user wants a known visual treatment instead of a vague scrapbook prompt.
 
+Quick overview:
+- Gallery page: `STYLE_GALLERY.md`
+- Contact sheet: `style-gallery.png`
+
 ## Style 1: Board System
 
 - File: `style-1-board-system.png`

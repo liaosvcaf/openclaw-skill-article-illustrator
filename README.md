@@ -21,6 +21,7 @@ Transform articles into richly illustrated markdown using **hand-crafted scrapbo
 ## Style References
 
 The skill now includes a local sample library under `references/style-library/`.
+Use `references/style-library/STYLE_GALLERY.md` for the fastest visual picker.
 
 You can ask for:
 - `风格1` / `style 1` — Board System
