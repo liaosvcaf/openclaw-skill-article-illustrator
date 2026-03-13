@@ -14,6 +14,7 @@ Transform articles into illustrated markdown by generating hand-crafted scrapboo
 This skill uses **Z.AI API key only** and always calls **`glm-image`**.
 
 Configure one of:
+- Add `ZAI_API_KEY="your-key"` to `~/.codex/.env`
 - `export ZAI_API_KEY="your-key"`
 - Add `"zai_api_key": "your-key"` to `~/.openclaw/config.json`
 
@@ -33,7 +34,7 @@ Backward-compatible fallback names are still accepted by the bundled script:
 
 ### Step 0: Check API Key
 
-If `ZAI_API_KEY` is not configured (or compatible fallback key names are missing), stop and tell the user how to configure it. Do not proceed without a valid key.
+If `ZAI_API_KEY` is not configured (or compatible fallback key names are missing), stop and tell the user how to configure it. Check `~/.codex/.env` first, then environment variables, then fallback config sources. Do not proceed without a valid key.
 
 ### Step 1: Validate Input
 
@@ -45,6 +46,7 @@ Before generating any images:
 ### Step 2: Generate Image Prompts
 
 Read the scrapbook system prompt from `references/scrapbook-prompt.md`.
+If the user asks for a numbered style such as `风格1` or `风格3`, also read `references/style-library/STYLE_INDEX.md` and match the requested style.
 
 Using that prompt, analyze the article and output a JSON plan:
 
@@ -65,6 +67,20 @@ Using that prompt, analyze the article and output a JSON plan:
 ```
 
 Target 1 image per 300–400 words of article content.
+
+For WeChat/article visuals, prefer a **poster-like composition** over a dense dashboard:
+- fewer text labels
+- bigger typography
+- one main idea per image
+- avoid many tiny notes crammed into one frame
+- avoid mixed Chinese/English labels unless absolutely necessary
+
+The skill now supports numbered reference styles:
+- `风格1` / `style 1`: Board System
+- `风格2` / `style 2`: Blue Poster
+- `风格3` / `style 3`: Character Sticker
+- `风格4` / `style 4`: Editorial Story
+- `风格5` / `style 5`: Bold Metaphor Scrapbook
 
 ### Step 3: Generate All Images in Parallel
 
@@ -106,3 +122,16 @@ Return the complete markdown article with:
 - **Anchor not found**: Insert at nearest paragraph break instead
 - **No API key**: Surface error immediately with setup instructions
 - **All images fail**: Return original article unchanged with error summary
+
+## Quality Gate
+
+Reject and regenerate if any image has one of these problems:
+- obvious typo or missing letters in large text
+- too many tiny labels or fake microtext
+- line-art / slide-deck / wireframe feel instead of physical scrapbook feel
+- visual clutter that makes the main idea hard to grasp
+- mixed-language labels that look accidental rather than intentional
+
+For WeChat specifically:
+- default to `portrait` unless the user explicitly wants cover or landscape
+- keep image text short enough that each phrase is likely to render correctly
