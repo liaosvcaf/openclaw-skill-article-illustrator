@@ -1,0 +1,25 @@
+{
+  "title": "你的AI智能体没用？因为你缺一个任务指挥中心",
+  "author": "硅谷一孔之见",
+  "source_url": "https://mp.weixin.qq.com/s/BJc0eA59bEUr1SFdnfeLAg",
+  "samples": [
+    {
+      "index": 1,
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/0uqb5iaV5BianeBxia5aA2nkU83XicyJ0fTcDHibCgQkPFAK6KJPkg0GNLqX3xsB6hE4k0AF8wWtJJ7iaFneI9Xym4Oh07onvlVjIO3OmqsYO3I10/640?wx_fmt=jpeg#imgIndex=0",
+      "file": "sample-1.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "index": 2,
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/0uqb5iaV5BialavkqCFzNSy591LaiboJfNK40mEqSgf3tRb6ZWAypoH3TUghuQwzMteN11m2fCEIibfb2nRXRLGzdMJlWP9vO0CQ3AjO7yjyM9o/640?wx_fmt=jpeg#imgIndex=1",
+      "file": "sample-2.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "index": 3,
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/0uqb5iaV5Biamy85uvibbz62WYMfNOQoR4Y73MadVusAucTnfJk5LTYmKQicEicJ4rafOSzAKsvQgMd4QjhtAUXHCAibNNTVgBtTmEWq6BIU5h8Mc/640?wx_fmt=jpeg#imgIndex=2",
+      "file": "sample-3.jpg",
+      "content_type": "image/jpeg"
+    }
+  ]
+}
